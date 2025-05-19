@@ -9,6 +9,7 @@ import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import setSplitText from "./utils/splitText";
+// import SplashCursor from "./utils/Animations/SplashCursor/SplashCursor";
 
 const TechStack = lazy(() => import("./TechStack"));
 

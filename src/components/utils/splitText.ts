@@ -10,7 +10,10 @@ interface ParaElement extends HTMLElement {
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
-gsap.config({ trialWarn: false });
+// gsap.config({ trialWarn: false });
+
+gsap.config({} as any);
+
 
 export default function setSplitText() {
   ScrollTrigger.config({ ignoreMobileResize: true });
