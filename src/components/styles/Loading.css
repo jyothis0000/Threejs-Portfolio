@@ -70,7 +70,7 @@
   overflow: visible;
 }
 .loading-hover {
-  background-color: #7fc74f;
+  background-color: #930e3a;
   width: 250px;
   height: 120px;
   position: absolute;
@@ -272,7 +272,7 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #7fc74f;
+  background-color: #930e3a;
   animation: ball25 7s infinite;
   transform: translateY(10px);
   animation-timing-function: cubic-bezier(0.3, 1.18, 0.63, 1.28);

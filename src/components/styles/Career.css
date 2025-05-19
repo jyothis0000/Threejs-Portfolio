@@ -17,7 +17,7 @@
   line-height: 70px;
   font-weight: 400;
   text-align: center;
-  background: linear-gradient(0deg, #7fc74f, #ffffff);
+  background: linear-gradient(0deg, #930e3a, #ffffff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -83,7 +83,7 @@
   height: 100%;
   background-image: linear-gradient(
     to top,
-    #7fc74f 20%,
+    #930e3a 20%,
     var(--accentColor) 50%,
     transparent 95%
   );
@@ -94,11 +94,11 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
-  background-color: #7fc74f;
+  background-color: #930e3a;
   width: 10px;
   height: 10px;
   border-radius: 50px;
-  box-shadow: 0px 0px 5px 2px #c7e9b0, 0px 0px 15px 8px #c7e9b0,
+  box-shadow: 0px 0px 5px 2px #da4885, 0px 0px 15px 8px #da4885,
     0px 0px 110px 20px #c7e9b0;
   animation: timeline 0.8s linear infinite forwards;
 }
@@ -109,7 +109,7 @@
   50%,
   70%,
   90% {
-    box-shadow: 0px 0px 5px 2px #c7e9b0;
+    box-shadow: 0px 0px 5px 2px #da4885;
   }
   10%,
   30%,
@@ -117,17 +117,17 @@
   100%,
   64%,
   80% {
-    box-shadow: 0px 0px 5px 2px #c7e9b0, 0px 0px 15px 5px #c7e9b0,
-      0px 0px 110px 20px #c7e9b0;
+    box-shadow: 0px 0px 5px 2px #da4885, 0px 0px 15px 5px #da4885,
+      0px 0px 110px 20px #da4885;
   }
 }
 @keyframes timeline2 {
   0% {
-    box-shadow: 0px 0px 5px 2px #c7e9b0;
+    box-shadow: 0px 0px 5px 2px #da4885;
   }
   100% {
-    box-shadow: 0px 0px 5px 2px #c7e9b0, 0px 0px 15px 5px #c7e9b0,
-      0px 0px 110px 20px #c7e9b0;
+    box-shadow: 0px 0px 5px 2px #da4885, 0px 0px 15px 5px #da4885,
+      0px 0px 110px 20px #da4885;
   }
 }
 @media only screen and (max-width: 1400px) {
